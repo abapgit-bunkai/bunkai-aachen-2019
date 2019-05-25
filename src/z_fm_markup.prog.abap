@@ -5,6 +5,6 @@
 *&---------------------------------------------------------------------*
 REPORT z_fm_markup.
 
-data(markdown) = new zmarkdown( ).
-Data(tolles_html) = markdown->text( text = '**Hallo** cc Carsten Kranz' ).
+DATA(markdown) = NEW zmarkdown( ).
+DATA(tolles_html) = markdown->text( text = '**Hallo** cc Christoph' ).
 cl_demo_output=>display_html( html = tolles_html ).
