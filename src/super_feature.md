@@ -1,2 +1,3 @@
 # Mein neues super Feature
-123
+3.14
+42
